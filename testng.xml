@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="ApplicationSuite">
+    <test name="ApplicationTest">
+        <listeners>
+            <listener class-name="utilities.ExtentReportUtility"/>
+        </listeners>
+        <classes>
+            <class name="tests.CarLoanTest"/>
+            <class name="tests.ExcelTest"/>
+            <class name="tests.EMI_CalculatorTest"/>
+            <class name="tests.LoanAmountCalculatorTest"/>
+            <class name="tests.LoanTenureCalculatorTest"/>
+        </classes>
+
+    </test>
+</suite>

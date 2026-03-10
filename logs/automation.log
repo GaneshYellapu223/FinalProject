@@ -1,0 +1,103 @@
+2026-02-12 14:02:34 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\2457366\IdeaProjects\FinalProject\testng.xml] otherwise TestNG may fail or not work as expected.
+2026-02-12 14:02:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457366\IdeaProjects\FinalProject\testng.xml
+
+2026-02-12 14:02:35 INFO  ExtentReportUtility:54 - Extent Report initialized: Test-Report-2026.02.12.14.02.34.html
+2026-02-12 14:02:49 INFO  ExtentReportUtility:17 - fillCarLoanDetailsTest Started
+2026-02-12 14:02:49 INFO  CarLoanTest:11 - CarLoan Test has started...
+2026-02-12 14:02:51 INFO  CarLoanTest:20 - Principal Amount is:₹ 1,19,650
+2026-02-12 14:02:51 INFO  CarLoanTest:21 - Interest Amount is:₹ 11,875
+2026-02-12 14:02:51 INFO  CarLoanTest:22 - CarLoan Test has completed...
+2026-02-12 14:02:51 ERROR ExtentReportUtility:27 - Test Failed: Test Failed: fillCarLoanDetails - java.lang.AssertionError: null
+2026-02-12 14:02:51 ERROR ExtentReportUtility:27 - Test Failed: Test Failed: fillCarLoanDetails - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "utilities.ExtentReportUtility.driver" is null
+2026-02-12 14:02:55 INFO  ExtentReportUtility:102 - Extent Report flushed.
+2026-02-12 14:03:39 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\2457366\IdeaProjects\FinalProject\testng.xml] otherwise TestNG may fail or not work as expected.
+2026-02-12 14:03:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457366\IdeaProjects\FinalProject\testng.xml
+
+2026-02-12 14:03:40 INFO  ExtentReportUtility:54 - Extent Report initialized: Test-Report-2026.02.12.14.03.40.html
+2026-02-12 14:03:51 INFO  ExtentReportUtility:17 - fillCarLoanDetailsTest Started
+2026-02-12 14:03:51 INFO  CarLoanTest:11 - CarLoan Test has started...
+2026-02-12 14:03:53 INFO  CarLoanTest:20 - Principal Amount is:₹ 1,19,650
+2026-02-12 14:03:53 INFO  CarLoanTest:21 - Interest Amount is:₹ 11,875
+2026-02-12 14:03:53 INFO  CarLoanTest:22 - CarLoan Test has completed...
+2026-02-12 14:03:53 INFO  ExtentReportUtility:22 - Test Passed: fillCarLoanDetails passed
+2026-02-12 14:04:06 INFO  ExtentReportUtility:17 - validateEMICalculator_LoanAmountTest Started
+2026-02-12 14:04:11 INFO  ExtentReportUtility:22 - Test Passed: validateEMICalculator_LoanAmount passed
+2026-02-12 14:04:11 INFO  ExtentReportUtility:17 - validateEMICalculator_LoanInterestTest Started
+2026-02-12 14:04:12 INFO  ExtentReportUtility:22 - Test Passed: validateEMICalculator_LoanInterest passed
+2026-02-12 14:04:12 INFO  ExtentReportUtility:17 - validateEMICalculator_LoanTenureTest Started
+2026-02-12 14:04:13 INFO  ExtentReportUtility:22 - Test Passed: validateEMICalculator_LoanTenure passed
+2026-02-12 14:04:13 INFO  ExtentReportUtility:17 - validateMonthBtnTest Started
+2026-02-12 14:04:14 INFO  ExtentReportUtility:22 - Test Passed: validateMonthBtn passed
+2026-02-12 14:04:14 INFO  ExtentReportUtility:17 - validateEMICalculator_LoanChargesTest Started
+2026-02-12 14:04:15 INFO  ExtentReportUtility:22 - Test Passed: validateEMICalculator_LoanCharges passed
+2026-02-12 14:04:25 INFO  ExtentReportUtility:17 - validateLoanAmtCalBtnTest Started
+2026-02-12 14:04:30 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmtCalBtn passed
+2026-02-12 14:04:30 INFO  ExtentReportUtility:17 - validateLoanAmountCalculator_EMITest Started
+2026-02-12 14:04:31 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmountCalculator_EMI passed
+2026-02-12 14:04:31 INFO  ExtentReportUtility:17 - validateLoanAmountCalculator_InterestTest Started
+2026-02-12 14:04:32 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmountCalculator_Interest passed
+2026-02-12 14:04:32 INFO  ExtentReportUtility:17 - validateLoanAmountCalculator_TenureTest Started
+2026-02-12 14:04:34 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmountCalculator_Tenure passed
+2026-02-12 14:04:34 INFO  ExtentReportUtility:17 - validateYearBtnTest Started
+2026-02-12 14:04:34 INFO  ExtentReportUtility:22 - Test Passed: validateYearBtn passed
+2026-02-12 14:04:34 INFO  ExtentReportUtility:17 - validateLoanAmountCalculator_ChargesTest Started
+2026-02-12 14:04:35 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmountCalculator_Charges passed
+2026-02-12 14:04:46 INFO  ExtentReportUtility:17 - validateLoanTenureIconTest Started
+2026-02-12 14:04:51 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureIcon passed
+2026-02-12 14:04:51 INFO  ExtentReportUtility:17 - validateLoanTenureCalculator_LoanAmountTest Started
+2026-02-12 14:04:52 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureCalculator_LoanAmount passed
+2026-02-12 14:04:52 INFO  ExtentReportUtility:17 - validateLoanTenureCalculator_EMITest Started
+2026-02-12 14:04:54 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureCalculator_EMI passed
+2026-02-12 14:04:54 INFO  ExtentReportUtility:17 - validateLoanTenureCalculator_InterestTest Started
+2026-02-12 14:04:54 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureCalculator_Interest passed
+2026-02-12 14:04:54 INFO  ExtentReportUtility:17 - validateLoanTenureCalculator_ChargesTest Started
+2026-02-12 14:04:56 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureCalculator_Charges passed
+2026-02-12 14:05:00 INFO  ExtentReportUtility:102 - Extent Report flushed.
+2026-02-12 14:06:01 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\2457366\IdeaProjects\FinalProject\testng.xml] otherwise TestNG may fail or not work as expected.
+2026-02-12 14:06:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457366\IdeaProjects\FinalProject\testng.xml
+
+2026-02-12 14:06:01 INFO  ExtentReportUtility:54 - Extent Report initialized: Test-Report-2026.02.12.14.06.01.html
+2026-02-12 14:06:10 INFO  ExtentReportUtility:17 - fillCarLoanDetailsTest Started
+2026-02-12 14:06:10 INFO  CarLoanTest:11 - CarLoan Test has started...
+2026-02-12 14:06:13 INFO  CarLoanTest:20 - Principal Amount is:₹ 1,19,650
+2026-02-12 14:06:13 INFO  CarLoanTest:21 - Interest Amount is:₹ 11,875
+2026-02-12 14:06:13 INFO  CarLoanTest:22 - CarLoan Test has completed...
+2026-02-12 14:06:13 INFO  ExtentReportUtility:22 - Test Passed: fillCarLoanDetails passed
+2026-02-12 14:06:25 INFO  ExtentReportUtility:17 - getExcelFIleTest Started
+2026-02-12 14:08:21 INFO  ExtentReportUtility:22 - Test Passed: getExcelFIle passed
+2026-02-12 14:08:33 INFO  ExtentReportUtility:17 - validateEMICalculator_LoanAmountTest Started
+2026-02-12 14:08:39 INFO  ExtentReportUtility:22 - Test Passed: validateEMICalculator_LoanAmount passed
+2026-02-12 14:08:39 INFO  ExtentReportUtility:17 - validateEMICalculator_LoanInterestTest Started
+2026-02-12 14:08:40 INFO  ExtentReportUtility:22 - Test Passed: validateEMICalculator_LoanInterest passed
+2026-02-12 14:08:40 INFO  ExtentReportUtility:17 - validateEMICalculator_LoanTenureTest Started
+2026-02-12 14:08:41 INFO  ExtentReportUtility:22 - Test Passed: validateEMICalculator_LoanTenure passed
+2026-02-12 14:08:41 INFO  ExtentReportUtility:17 - validateMonthBtnTest Started
+2026-02-12 14:08:41 INFO  ExtentReportUtility:22 - Test Passed: validateMonthBtn passed
+2026-02-12 14:08:41 INFO  ExtentReportUtility:17 - validateEMICalculator_LoanChargesTest Started
+2026-02-12 14:08:42 INFO  ExtentReportUtility:22 - Test Passed: validateEMICalculator_LoanCharges passed
+2026-02-12 14:08:53 INFO  ExtentReportUtility:17 - validateLoanAmtCalBtnTest Started
+2026-02-12 14:08:58 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmtCalBtn passed
+2026-02-12 14:08:58 INFO  ExtentReportUtility:17 - validateLoanAmountCalculator_EMITest Started
+2026-02-12 14:08:59 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmountCalculator_EMI passed
+2026-02-12 14:08:59 INFO  ExtentReportUtility:17 - validateLoanAmountCalculator_InterestTest Started
+2026-02-12 14:09:00 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmountCalculator_Interest passed
+2026-02-12 14:09:00 INFO  ExtentReportUtility:17 - validateLoanAmountCalculator_TenureTest Started
+2026-02-12 14:09:01 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmountCalculator_Tenure passed
+2026-02-12 14:09:01 INFO  ExtentReportUtility:17 - validateYearBtnTest Started
+2026-02-12 14:09:01 INFO  ExtentReportUtility:22 - Test Passed: validateYearBtn passed
+2026-02-12 14:09:01 INFO  ExtentReportUtility:17 - validateLoanAmountCalculator_ChargesTest Started
+2026-02-12 14:09:02 INFO  ExtentReportUtility:22 - Test Passed: validateLoanAmountCalculator_Charges passed
+2026-02-12 14:09:13 INFO  ExtentReportUtility:17 - validateLoanTenureIconTest Started
+2026-02-12 14:09:18 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureIcon passed
+2026-02-12 14:09:18 INFO  ExtentReportUtility:17 - validateLoanTenureCalculator_LoanAmountTest Started
+2026-02-12 14:09:19 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureCalculator_LoanAmount passed
+2026-02-12 14:09:19 INFO  ExtentReportUtility:17 - validateLoanTenureCalculator_EMITest Started
+2026-02-12 14:09:20 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureCalculator_EMI passed
+2026-02-12 14:09:20 INFO  ExtentReportUtility:17 - validateLoanTenureCalculator_InterestTest Started
+2026-02-12 14:09:21 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureCalculator_Interest passed
+2026-02-12 14:09:21 INFO  ExtentReportUtility:17 - validateLoanTenureCalculator_ChargesTest Started
+2026-02-12 14:09:22 INFO  ExtentReportUtility:22 - Test Passed: validateLoanTenureCalculator_Charges passed
+2026-02-12 14:09:26 INFO  ExtentReportUtility:102 - Extent Report flushed.
