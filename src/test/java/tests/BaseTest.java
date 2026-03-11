@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 import pages.ExcelPage;
 import pages.HomePage;
 import pages.LoanPage;
+import utilities.ExtentReportUtility;
 
 import java.time.Duration;
 
@@ -26,6 +27,7 @@ public class BaseTest {
 //        options.addArguments("--window-size=1920,1080");
         options.addArguments("start-maximized");
         driver=new ChromeDriver(options);
+        ExtentReportUtility.setDriver(driver);
         driver.navigate().to("https://emicalculator.net/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         homePage=new HomePage(driver);

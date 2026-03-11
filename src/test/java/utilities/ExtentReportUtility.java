@@ -33,6 +33,10 @@ public class ExtentReportUtility implements ITestListener {
     public static WebDriver driver;
     private static final Logger log = LogManager.getLogger(ExtentReportUtility.class);
     Reporter reporter = new Reporter(ExtentReportUtility.class);
+    public static void setDriver(WebDriver driver) {
+        ExtentReportUtility.driver = driver;
+    }
+
 
     @Override
     public void onStart(ITestContext context) {
@@ -105,29 +109,48 @@ public class ExtentReportUtility implements ITestListener {
     public static ExtentTest getTest() {
         return test.get();
     }
-
     public static String takeScreenshot(String testName) {
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
-        String screenshotDir = System.getProperty("user.dir")
-                + File.separator + "reports"
-                + File.separator + "screenshots";
+        String screenshotDir = System.getProperty("user.dir") + "/reports/screenshots/";
+        new File(screenshotDir).mkdirs();
 
-        String fullPath = screenshotDir + File.separator + testName + "_" + timestamp + ".png";
+        String fullPath = screenshotDir + testName + "_" + timestamp + ".png";
 
         try {
             FileUtils.copyFile(src, new File(fullPath));
-            log.info("Screenshot captured for test: " + testName);
-            byte[] screenshotBytes = Files.readAllBytes(Paths.get(fullPath));
-            Allure.addAttachment("Screenshot - " + testName, new ByteArrayInputStream(screenshotBytes));
-        } catch (IOException e) {
-            log.error("Failed to save screenshot: " + e.getMessage());
+            byte[] bytes = Files.readAllBytes(Paths.get(fullPath));
+            Allure.addAttachment("Screenshot - " + testName, new ByteArrayInputStream(bytes));
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
-        return "screenshots/" + testName + "_" + timestamp + ".png";
+        return fullPath;  // FIX
     }
 
+//    public static String takeScreenshot(String testName) {
+//        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//        String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+//
+//        String screenshotDir = System.getProperty("user.dir")
+//                + File.separator + "reports"
+//                + File.separator + "screenshots";
+//
+//        String fullPath = screenshotDir + File.separator + testName + "_" + timestamp + ".png";
+//
+//        try {
+//            FileUtils.copyFile(src, new File(fullPath));
+//            log.info("Screenshot captured for test: " + testName);
+//            byte[] screenshotBytes = Files.readAllBytes(Paths.get(fullPath));
+//            Allure.addAttachment("Screenshot - " + testName, new ByteArrayInputStream(screenshotBytes));
+//        } catch (IOException e) {
+//            log.error("Failed to save screenshot: " + e.getMessage());
+//        }
+//
+//        return "screenshots/" + testName + "_" + timestamp + ".png";
+//    }
+//
 }
 
 

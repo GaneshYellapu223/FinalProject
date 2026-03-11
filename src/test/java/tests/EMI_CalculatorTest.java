@@ -11,6 +11,7 @@ public class EMI_CalculatorTest extends BaseTest{
         String actualLoan=loanPage.enterData(loanPage.LoanTextBox,"2500000");
         Assert.assertEquals(actualLoan,"2500000");
         String actual=loanPage.sliderCheck(loanPage.LoanSlider);
+        log.info(actual);
         Assert.assertEquals(actual,"left: 20.5%;");
     }
     @Test(priority = 2)

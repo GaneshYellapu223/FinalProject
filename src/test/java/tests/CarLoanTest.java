@@ -20,7 +20,6 @@ public class CarLoanTest extends BaseTest {
         log.info("Principal Amount is:"+homePage.getAmount(homePage.principal));
         log.info("Interest Amount is:"+homePage.getAmount(homePage.interest));
         log.info("CarLoan Test has completed...");
-
     }
 
 
