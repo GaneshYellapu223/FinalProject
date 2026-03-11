@@ -6,7 +6,7 @@
         </listeners>
         <classes>
             <class name="tests.CarLoanTest"/>
-            <!-- <class name="tests.ExcelTest"/> -->
+            <class name="tests.ExcelTest"/>
             <class name="tests.EMI_CalculatorTest"/>
             <class name="tests.LoanAmountCalculatorTest"/>
             <class name="tests.LoanTenureCalculatorTest"/>
